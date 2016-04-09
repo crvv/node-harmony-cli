@@ -1,0 +1,23 @@
+{
+  "name": "node-harmony",
+  "version": "1.0.0",
+  "description": "node with all harmony options",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crvv/node-harmony.git"
+  },
+  "keywords": [
+    "node",
+    "harmony"
+  ],
+  "author": "crvv",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/crvv/node-harmony/issues"
+  },
+  "homepage": "https://github.com/crvv/node-harmony#readme"
+}
