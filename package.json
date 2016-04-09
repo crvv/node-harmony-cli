@@ -1,6 +1,6 @@
 {
   "name": "node-harmony-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node with all harmony options",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   ],
   "author": "crvv",
   "license": "BSD-2-Clause",
+  "engines": { "node": ">=0.12.0" },
   "bugs": {
     "url": "https://github.com/crvv/node-harmony-cli/issues"
   },

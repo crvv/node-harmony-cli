@@ -7,7 +7,7 @@ var cp = require('child_process');
 cp.exec('node --v8-options', function (error, stdout, stderr) {
     var lines = stdout.split('\n');
     lines = lines.filter(function (line) {
-        return line.includes('--harmony');
+        return line.indexOf('--harmony') >= 0;
     });
     lines = lines.map(function (line) {
         return line.trimLeft().split(' ')[0];
