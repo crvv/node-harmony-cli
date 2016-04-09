@@ -1,6 +1,6 @@
 {
   "name": "node-harmony-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "node with all harmony options",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "bin": {
       "node-harmony": "./index.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crvv/node-harmony-cli.git"
