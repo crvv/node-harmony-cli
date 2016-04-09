@@ -15,4 +15,5 @@ $ node-harmony script.js
 
 ## FAQ
 > Q: What's the difference between `node-harmony` and `node --harmony`?
+
 A: While `node --harmony` will enable all completed harmony features, `node-harmony` will enable all harmony features, including those in-progress ones.
